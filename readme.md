@@ -1,10 +1,7 @@
 # Creación de Portafolio
 
-## Tecnologías utilizadas
+## Descripción
 Proyecto para la creacion de una Portafolio Virtual.
-
-Aplicación web dinámica, usando el patrón de diseño
-MVC.
 
 ## Tecnologías utilizadas
 Lista de tecnologías pre-requisitos mínimos para que el proyecto funcione locamente:
