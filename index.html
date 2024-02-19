@@ -12,7 +12,156 @@
 
 <body>
     <!-- Aquí irá el contenido de tu portafolio -->
- 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-ligh mt-3">
+            <a class="navbar-brand" href="#"><b>Juan Pablo Vásquez</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="mb-3" id="about">
+        <div class="container mt-5">
+            <img id="imagen" src="img/photo1694136593.jpeg" class="img-thumbnail" class="img-responsive">
+            <h2>Acerca de mí</h2>
+            <p class="lead">¡Hola! Soy <b>Juan Pablo Vásquez</b> un desarrolador <b>Full Stack</b> versátil que puede asumir 
+                diferentes
+                roles en el desarrollo de aplicaciones web, desde
+                la implementación de la interfaz de usuario hasta la configuración del servidor y la gestión de la base
+                de datos.<br> Soy capaz de trabajar de forma independiente o en equipo, y poseo conocimiento integral
+                que
+                permite contribuir en todas las etapas del ciclo de vida de un proyecto web.</p>
+        </div>
+    </section>
+    <section class="mb-3" id="habilidades">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card body">
+                        <h2>Habilidades Frontend</h2>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                            <li>Frameworks como React, Angular o Vue.js</li>
+                            <li>Responsive Design</li>
+                            <li>Experiencia en UI/UX</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card body">
+                        <h2>Habilidades Backend</h2>
+                        <ul>
+                            <li>Lenguajes de programación como Python, Java o Ruby</li>
+                            <li>Bases de datos como Oracle, MongoDB o PostgreSQL</li>
+                            <li>Framework Spring Framework</li>
+                            <li>APIs y servicios web</li>
+                            <li>Seguridad y autenticación</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card body">
+                        <h2>Otras Habilidades</h2>
+                        <ul>
+                            <li>Gestión de versiones con Git y GithHub</li>
+                            <li>Conocimiento de servidores y despliegue</li>
+                            <li>Conocimientos básicos de diseño gráfico</li>
+                            <li>Capacidad de trabajo en equipo y comunicación</li>
+                            <li>Resolución de problemas y habilidades analíticas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-3" id="portfolio">
+        <div class="container mt-5">
+            <h2>Portafolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/banchile.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Acciones</h5>
+                            <p class="card-text">Servicio que administra las operaciones sobre <b>Acciones</b> para el
+                                ingreso de operaciones.</p>
+                            <button class="btn btn-primary"
+                                onclick="window.open('https://ww2.banchileinversiones.cl', '_blank')"><b>Ver
+                                    más</b></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/banchile.png" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Moneda Extranjera</h5>
+                            <p class="card-text">Servicio que administra las operaciones sobre <b>Moneda Extranjera</b>
+                                para el ingreso de operaciones.</p>
+                            <button class="btn btn-primary"
+                                onclick="window.open('https://ww2.banchileinversiones.cl', '_blank')"><b>Ver
+                                    más</b></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/banchile.png" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Fondos Mutuos</h5>
+                            <p class="card-text">Servicio que administra las operaciones sobre <b>Fondos Mutuos</b> para
+                                el ingreso de operaciones.</p>
+                            <button class="btn btn-primary"
+                                onclick="window.open('https://ww2.banchileinversiones.cl', '_blank')"><b>Ver
+                                    más</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container mt-5">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
 
     <footer class="aria-expanded-lg bg-dark text-light py-3 mt-3">
         <div class="container">
