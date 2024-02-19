@@ -1,9 +1,9 @@
 <?php
-$nombre = $_POST['nombre'];
-$email = $_POST['email'];
-$descripcion = $_POST['descripcion'];
+$nombre = $_POST['txtNombre'];
+$email = $_POST['txtEmail'];
+$descripcion = $_POST['txtdescripcion'];
 
-$destinatario = 'tucorreo@example.com';
+$destinatario = 'pablo1986vasquez@gmail.com';
 $asunto = 'Nuevo formulario de contacto';
 
 $mensaje = "Nombre: $nombre\n";
