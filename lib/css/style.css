@@ -1,0 +1,52 @@
+/*
+*se utiliza el selector p.lead b para seleccionar las etiquetas <b> 
+que se encuentran dentro de un párrafo con la clase lead. 
+Luego, se aplica el estilo font-weight: bold; para hacer que el texto en negrita.
+*/
+p.lead b {
+  font-weight: bold;
+}
+
+/*Código CSS para aplicar estilos en negrita a las etiquetas <a> */
+#navbarNav .navbar-nav .nav-item a.nav-link {
+  font-weight: bold;
+}
+
+/*Estilos para la imagen**/
+  #imagen {
+    width: 30%; /* Ancho de la imagen */
+    height: 100%; /* Alto de la imagen */
+    border: 1px solid #ccc; /* Borde de la imagen */
+    border-radius: 50%; /* Borde redondeado de la imagen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra de la imagen */
+    object-fit: cover; /* Ajuste del contenido de la imagen */
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin-left: auto; /* Centra horizontalmente la imagen */
+    margin-right: auto; /* Centra horizontalmente la imagen */
+    transition: transform 0.3s ease; /* Agrega una transición suave al expandir la imagen */
+  }
+  #imagen:hover {
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al 120% */
+  }
+
+  body {
+    background-color: #f2f2f2; /* Color de fondo del body */
+    font-family: Arial, sans-serif; /* Familia de fuentes para el texto del body */
+    color: #333; /* Color del texto del body */
+    margin: 0; /* Margen exterior del body */
+    padding: 20px; /* Espaciado interno del body */
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    body {
+      font-size: 14px;
+      line-height: 1.5;
+      /* Otros estilos específicos para dispositivos móviles */
+    }
+    /*Estilos para la image*/
+    #imagen {
+      max-width: 100%;
+    }
+  }
+  
